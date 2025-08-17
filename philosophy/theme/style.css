@@ -1,0 +1,128 @@
+/*
+Theme Name: Philosophy
+Theme URI: https://example.com/philosophy
+Author: nazrul rafi
+Author URI: https://example.com
+Description: A custom WordPress theme based on your HTML template.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: philosophy
+Tags: custom-background, custom-logo, custom-menu, featured-images, post-formats, responsive-layout, threaded-comments
+*/
+
+/* Add your theme CSS below */
+.comment-form-cookies-consent{
+    display: none;
+}
+
+.header__search-form input[type="search"]{
+    color:#fff!important;
+}
+
+.book-content-main .row{
+    max-width: 85%;
+    margin: auto;
+}
+.book-content-wrap {
+    display: flex;
+    gap: 20px; /* space between left and right */
+}
+
+.book-content-wrap .left-content {
+    width: 300px;
+    flex-shrink: 0;
+    position: sticky;     /* make it sticky */
+    top: 60px;            /* distance from top when scrolling */
+    align-self: flex-start;
+}
+
+.book-content-wrap .right-content {
+    flex: 1; /* take remaining space */
+    min-width: 0; /* prevent overflow issues */
+}
+.book-content-wrap .s-content__header-title{
+    font-size: 3.5rem;
+}
+.book-header-wrap{
+    padding: 0px!important;
+}
+.book-content-wrap .s-content__main{
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.book-content-wrap .s-content__media{
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.book-summary{
+    font-size: 20px;
+    text-decoration: underline;
+}
+.book-chapter{
+    list-style-type: none;
+}
+
+.writter-info-wrap {
+    display: flex;
+    align-items: flex-start; /* aligns top of image with text */
+    gap: 15px;
+    margin: 10px 30px 30px 0;
+}
+
+.author-img-wrap {
+    width: 100px;
+    flex-shrink: 0;           /* prevent shrinking */
+}
+
+.author-img-wrap img {
+    width: 100%;
+    height: auto;             /* maintain aspect ratio */
+    border-radius: 0;
+    display: block;
+    margin: 0!important;/* remove inline spacing issues */
+}
+
+.author-about {
+    flex: 1;                  /* take remaining space */
+}
+.author-name{
+    margin: 0;
+    padding: 0
+}
+.author-about p {
+    margin-top: 5px;          /* space below name */
+    line-height: 1.5;
+}
+
+
+.chapter-content-main .row{
+    max-width: 85%;
+    margin: auto;
+}
+.chapter-content-wrap {
+    display: flex;
+    gap: 20px; /* space between left and right */
+}
+.chapter-content-wrap .s-content__main{
+   padding-left: 0px;
+}
+.chapter-content-wrap .left-content {
+    flex: 1; /* take remaining space */
+    min-width: 0; /* prevent overflow issues */
+
+}
+
+.chapter-content-wrap .right-content {
+    width: 400px;
+    flex-shrink: 0;
+}
+
+.chapter-content-wrap .s-content__header-title{
+    font-size: 3.5rem;
+    text-align: left;
+
+}
+.chapter-header-wrap{
+    padding: 0px!important;
+}
