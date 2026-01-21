@@ -2,9 +2,9 @@
 
 I specialize in building **custom WordPress websites** with **custom themes and plugins**, optimized for performance, scalability, and user experience.  
 
-Here are some of my recent projects:
+Here are some of wordpress theme development projects:
 
-1. **[Philosophy – Blog Website](https://react.nazrulrafi.com/gemini/)**  
+1. **[Philosophy – Blog Website](https://philosophy.nazrulrafi.com/)**  
    A fully custom blog website built with a personalized theme and plugin integrations for seamless content management.
 
 2. **[Rethouse – Real Estate Website](https://rethouse.nazrulrafi.com/)**  
